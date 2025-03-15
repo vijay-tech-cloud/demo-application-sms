@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 60px;
+  padding-left: 350px;
+  background-color: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.addButton {
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filterSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.filterSection label {
+  font-weight: bold;
+}
+
+.filterSection select,
+.filterSection input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.assessmentList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.assessmentCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.assessmentDetails {
+  flex-grow: 1;
+}
+
+.viewButton {
+  background-color: #0000ff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.noData {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
